@@ -16,6 +16,11 @@ namespace leave_management.Repository
             this._db = db;
         }
 
+        public bool Create(LeaveHistory entity)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool Delete(LeaveHistory entity)
         {
             throw new NotImplementedException();

@@ -50,5 +50,11 @@ namespace leave_management.Repository
             _db.LeaveTypes.Update(entity);
             return Save();
         }
+
+        public bool Create(LeaveType entity)
+        {
+            _db.LeaveTypes.Add(entity);
+            return Save();
+        }
     }
 }

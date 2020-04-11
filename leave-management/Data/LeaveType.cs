@@ -11,7 +11,7 @@ namespace leave_management.Data
         [Key]
         public int Id { get; set; }
         [Required]
-        public string Nname { get; set; }
+        public string Name { get; set; }
         public DateTime DateCreated { get; set; }
 
     }
