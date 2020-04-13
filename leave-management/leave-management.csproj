@@ -6,6 +6,11 @@
     <RootNamespace>leave_management</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20200413095436_AddedDefualtDayAndPeriod.cs" />
+    <Compile Remove="Data\Migrations\20200413095436_AddedDefualtDayAndPeriod.Designer.cs" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="9.0.0" />
